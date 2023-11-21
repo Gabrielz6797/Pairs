@@ -2096,7 +2096,7 @@ MonoBehaviour:
   PicturePrefab: {fileID: 7277096841178476237, guid: 5f788dd6d042a7d4daafe895419c08c0, type: 3}
   PicSpawnPosition: {fileID: 1883973457}
   WordPosition: {fileID: 1546634874}
-  startPosition: {x: -2.15, y: 3.62}
+  startPosition: {x: -2.8, y: 1}
   EndGamePanel: {fileID: 526515451}
   NewBestScoreText: {fileID: 1992269491}
   YourScoreText: {fileID: 1022030044}
