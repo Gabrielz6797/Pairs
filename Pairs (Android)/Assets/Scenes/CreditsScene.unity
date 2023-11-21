@@ -158,7 +158,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 480, y: 400}
+  m_SizeDelta: {x: 480, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &364498921
 MonoBehaviour:
@@ -194,7 +194,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Developers:\nLuis Bola\xF1os Valverde\nJarod Venegas Alp\xEDzar\nGabriel
-    Z\xFA\xF1iga Orozco\n\nVoices:\nErick Lizano God\xEDnez\nAudry Portilla Barad\xEDn"
+    Z\xFA\xF1iga Orozco\n\nVoices:\nAshley Jones-Lewis\nErick Lizano God\xEDnez\nAudry
+    Portilla Barad\xEDn"
 --- !u!222 &364498922
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -671,7 +672,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 480, y: 100}
+  m_SizeDelta: {x: 480, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &951208718
 MonoBehaviour:
@@ -706,9 +707,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stocklib (stocklib.com)
+  m_Text: 'Excellent ESL 4U:
 
-    Pixabay (pixabay.com)'
+    excellentesl4u.com
+
+    Pixabay:
+
+    pixabay.com
+
+    Stocklib:
+
+    stocklib.com'
 --- !u!222 &951208719
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1287,8 +1296,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -150.00002}
-  m_SizeDelta: {x: 480, y: 900}
+  m_AnchoredPosition: {x: 0, y: -275.00003}
+  m_SizeDelta: {x: 480, y: 1150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1797886934
 MonoBehaviour:
@@ -1383,7 +1392,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 1
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Students
