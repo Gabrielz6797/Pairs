@@ -81,7 +81,7 @@ public class PictureManager : MonoBehaviour
         clipManager = GameObject.Find("ClipManager").GetComponent<ClipManager>();
         initVars();
         loadMaterials();
-        Vector2 newstartPosition = new Vector2(-1.65f, 2f);
+        Vector2 newstartPosition = startPosition;
         currrentGameState = GameState.MovingOnPositions;
         spawnPictureMesh(4, 5, newstartPosition, _offest, true);
         movePicture(4, 5, newstartPosition, _offest);

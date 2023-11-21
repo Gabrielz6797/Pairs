@@ -9,7 +9,7 @@ public class PictureManager : MonoBehaviour
     public Picture PicturePrefab;
     public Transform PicSpawnPosition;
     public Transform WordPosition;
-    public Vector2 startPosition = new Vector2(0f, 0f);
+    public Vector2 startPosition = new Vector2(-2.8f, 1f);
 
     [Space]
     [Header("End Game Screen")]
@@ -81,7 +81,7 @@ public class PictureManager : MonoBehaviour
         clipManager = GameObject.Find("ClipManager").GetComponent<ClipManager>();
         initVars();
         loadMaterials();
-        Vector2 newstartPosition = new Vector2(-2.8f, 1f);
+        Vector2 newstartPosition = startPosition;
         currrentGameState = GameState.MovingOnPositions;
         spawnPictureMesh(5, 4, newstartPosition, _offest, true);
         movePicture(5, 4, newstartPosition, _offest);
