@@ -315,7 +315,7 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - clip: {fileID: 8300000, guid: 6cc13c0d47e7ca248bf942494b0c7c81, type: 3}
+  - clip: {fileID: 8300000, guid: 5a400aff4cfee814aa84bcce3a8e44fb, type: 3}
     name: Pic2FruA
     volume: 1
     pitch: 1
@@ -363,7 +363,7 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - clip: {fileID: 8300000, guid: 6cc13c0d47e7ca248bf942494b0c7c81, type: 3}
+  - clip: {fileID: 8300000, guid: 9524a11380534cc48b8b46ef212a14f3, type: 3}
     name: Pic10FruA
     volume: 1
     pitch: 1
@@ -429,13 +429,13 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - clip: {fileID: 8300000, guid: 6cc13c0d47e7ca248bf942494b0c7c81, type: 3}
+  - clip: {fileID: 8300000, guid: 9880681489c35ba4183cffcb348b6ae5, type: 3}
     name: Pic1AniA
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - clip: {fileID: 8300000, guid: 6cc13c0d47e7ca248bf942494b0c7c81, type: 3}
+  - clip: {fileID: 8300000, guid: 591d9522bd63b064091e4bc5a677a8e4, type: 3}
     name: Pic2AniA
     volume: 1
     pitch: 1
@@ -501,7 +501,7 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - clip: {fileID: 8300000, guid: 6cc13c0d47e7ca248bf942494b0c7c81, type: 3}
+  - clip: {fileID: 8300000, guid: 0f904939d48228644a16414c1ba689ae, type: 3}
     name: Pic3VerA
     volume: 1
     pitch: 1
@@ -513,7 +513,7 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - clip: {fileID: 8300000, guid: 6cc13c0d47e7ca248bf942494b0c7c81, type: 3}
+  - clip: {fileID: 8300000, guid: c511a3763dbecf24793778118d7a4ea8, type: 3}
     name: Pic5VerA
     volume: 1
     pitch: 1
@@ -665,6 +665,126 @@ MonoBehaviour:
     source: {fileID: 0}
   - clip: {fileID: 8300000, guid: c4bb82f71bf775e479e6bc0a97a7a6c0, type: 3}
     name: Pic10OccA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: b39d4277d5069d44dae329e079f5e6a8, type: 3}
+    name: Pic1VehA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 19ccd3201b9e25149bbbd9b34ac6acee, type: 3}
+    name: Pic2VehA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: eee73fc0669535e45bb0b0c3f80b0d05, type: 3}
+    name: Pic3VehA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: e98189ac55bcc2442a676d6355548367, type: 3}
+    name: Pic4VehA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 2371abef29e24b3429bb8908056d2a41, type: 3}
+    name: Pic5VehA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 252d714daeb9f934fa4e00d1851a1073, type: 3}
+    name: Pic6VehA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: d25d9cae7063ea444a02a0b01581abeb, type: 3}
+    name: Pic7VehA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 6b4344bb12806a346924d05d1b8019ef, type: 3}
+    name: Pic8VehA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: ab663e701d7ec174bb2f2d8a257b0141, type: 3}
+    name: Pic9VehA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 54e1a796c2ae60045a7be85e334aec77, type: 3}
+    name: Pic10VehA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 058d245818606c84587e6f2531dc7502, type: 3}
+    name: Pic1BodA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: c22b38c4f0b69514cbc9dff40a8c3fc1, type: 3}
+    name: Pic2BodA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 4e0a1aa53b0698a41b04aebe2d1daf5b, type: 3}
+    name: Pic3BodA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 4a6c1888e95f70d4aba10e56f6c69aad, type: 3}
+    name: Pic4BodA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 27d418fbfb5928c4b8b1a595b7effe41, type: 3}
+    name: Pic5BodA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 3b4ce0a1ae048364b8084f830e261a97, type: 3}
+    name: Pic6BodA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: df6e6bc2df796f94a8a107fac8fcd915, type: 3}
+    name: Pic7BodA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 9dfa8a45d8032f045a8bd6b1c4507e5c, type: 3}
+    name: Pic8BodA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 67da8617f37cf084391b15d887086e10, type: 3}
+    name: Pic9BodA
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 37d1f297ea737734fac4e59ee087c423, type: 3}
+    name: Pic10BodA
     volume: 1
     pitch: 1
     loop: 0

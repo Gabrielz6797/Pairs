@@ -691,7 +691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonType: 1
-  puzzleCategories: 7
+  puzzleCategories: 8
 --- !u!114 &883899029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1602,7 +1602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonType: 1
-  puzzleCategories: 8
+  puzzleCategories: 7
 --- !u!114 &1709255217
 MonoBehaviour:
   m_ObjectHideFlags: 0
