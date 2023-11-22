@@ -12,7 +12,7 @@ public class Config
 #elif UNITY_ANDROID
     static readonly string Dir = Application.persistentDataPath;
 #else
-    static readonly string Dir = Application.persistentDataPath;
+    static readonly string Dir = Directory.GetCurrentDirectory();
 #endif
     static readonly string file = @"/PairMatching.ini";
     static readonly string path = Dir + file;
