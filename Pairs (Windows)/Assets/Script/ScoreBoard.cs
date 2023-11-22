@@ -18,6 +18,10 @@ public class ScoreBoard : MonoBehaviour
     public Text[] dateText_animals;
     public Text[] scoreText_occupations;
     public Text[] dateText_occupations;
+    public Text[] scoreText_vehicles;
+    public Text[] dateText_vehicles;
+    public Text[] scoreText_body;
+    public Text[] dateText_body;
 
     // Start is called before the first frame update
     void Start()
@@ -63,6 +67,18 @@ public class ScoreBoard : MonoBehaviour
             Config.occupationsTimeList,
             scoreText_occupations,
             dateText_occupations
+        );
+        displayCategoryScoreData(
+            Config.scoreTimeListVehicles,
+            Config.vehiclesTimeList,
+            scoreText_vehicles,
+            dateText_vehicles
+        );
+        displayCategoryScoreData(
+            Config.scoreTimeListBody,
+            Config.bodyTimeList,
+            scoreText_body,
+            dateText_body
         );
     }
 

@@ -20,7 +20,8 @@ public class GameSettings : MonoBehaviour
         Nature,
         Animals,
         Occupations,
-        Empty
+        Vehicles,
+        Body
     }
 
     public struct Settings
@@ -60,7 +61,8 @@ public class GameSettings : MonoBehaviour
         _puzzleCatDirectory.Add(EPuzzleCategories.Nature, "Nature");
         _puzzleCatDirectory.Add(EPuzzleCategories.Animals, "Animals");
         _puzzleCatDirectory.Add(EPuzzleCategories.Occupations, "Occupations");
-        _puzzleCatDirectory.Add(EPuzzleCategories.Empty, "Empty");
+        _puzzleCatDirectory.Add(EPuzzleCategories.Vehicles, "Vehicles");
+        _puzzleCatDirectory.Add(EPuzzleCategories.Body, "Body");
     }
 
     public void setPuzzleCategories(EPuzzleCategories cat)

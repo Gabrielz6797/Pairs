@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonType: 1
-  puzzleCategories: 6
+  puzzleCategories: 7
 --- !u!114 &523333869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -544,7 +544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonType: 1
-  puzzleCategories: 6
+  puzzleCategories: 8
 --- !u!114 &547328969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1940,8 +1940,8 @@ RectTransform:
   - {fileID: 558287536}
   - {fileID: 1256369948}
   - {fileID: 623479213}
-  - {fileID: 523333867}
   - {fileID: 547328967}
+  - {fileID: 523333867}
   m_Father: {fileID: 888030277}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}

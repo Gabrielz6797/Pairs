@@ -29,6 +29,10 @@ public class Config
     public static string[] animalsTimeList = new string[numberOfScoreRecords];
     public static float[] scoreTimeListOccupations = new float[numberOfScoreRecords];
     public static string[] occupationsTimeList = new string[numberOfScoreRecords];
+    public static float[] scoreTimeListVehicles = new float[numberOfScoreRecords];
+    public static string[] vehiclesTimeList = new string[numberOfScoreRecords];
+    public static float[] scoreTimeListBody = new float[numberOfScoreRecords];
+    public static string[] bodyTimeList = new string[numberOfScoreRecords];
     private static bool _bestScore = false;
 
     public static void createScoreFile()
@@ -49,6 +53,8 @@ public class Config
         updateScoreList(file, scoreTimeListNature, natureTimeList);
         updateScoreList(file, scoreTimeListAnimals, animalsTimeList);
         updateScoreList(file, scoreTimeListOccupations, occupationsTimeList);
+        updateScoreList(file, scoreTimeListVehicles, vehiclesTimeList);
+        updateScoreList(file, scoreTimeListBody, bodyTimeList);
         file.Close();
     }
 
@@ -115,6 +121,12 @@ public class Config
                 break;
             case GameSettings.EPuzzleCategories.Occupations:
                 playScoreOnBoard(time, scoreTimeListOccupations, occupationsTimeList);
+                break;
+            case GameSettings.EPuzzleCategories.Vehicles:
+                playScoreOnBoard(time, scoreTimeListVehicles, vehiclesTimeList);
+                break;
+            case GameSettings.EPuzzleCategories.Body:
+                playScoreOnBoard(time, scoreTimeListBody, bodyTimeList);
                 break;
         }
         saveScoreList();
@@ -200,6 +212,20 @@ public class Config
         {
             var x = scoreTimeListOccupations[i - 1].ToString();
             writer.WriteLine(i.ToString() + "#" + x + "D" + occupationsTimeList[i - 1]);
+        }
+
+        writer.WriteLine("(Vehicles)");
+        for (var i = 1; i <= numberOfScoreRecords; i++)
+        {
+            var x = scoreTimeListVehicles[i - 1].ToString();
+            writer.WriteLine(i.ToString() + "#" + x + "D" + vehiclesTimeList[i - 1]);
+        }
+
+        writer.WriteLine("(Body)");
+        for (var i = 1; i <= numberOfScoreRecords; i++)
+        {
+            var x = scoreTimeListBody[i - 1].ToString();
+            writer.WriteLine(i.ToString() + "#" + x + "D" + bodyTimeList[i - 1]);
         }
         
         writer.Close();

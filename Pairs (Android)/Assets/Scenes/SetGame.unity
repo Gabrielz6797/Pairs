@@ -1602,7 +1602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonType: 1
-  puzzleCategories: 7
+  puzzleCategories: 8
 --- !u!114 &1709255217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2016,8 +2016,8 @@ RectTransform:
   - {fileID: 558287536}
   - {fileID: 1256369948}
   - {fileID: 1508218846}
-  - {fileID: 883899027}
   - {fileID: 1709255215}
+  - {fileID: 883899027}
   m_Father: {fileID: 888030277}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
