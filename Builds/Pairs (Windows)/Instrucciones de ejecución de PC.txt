@@ -1,9 +1,0 @@
-Instrucciones de ejecución de PC:
-
-Estas instrucciones son temporales, pues el plan es crear un instalador automático,
-pero por ahora, para ejecutar el juego simplemente se debe descomprimir el archivo
-"Pairs PC.zip", abrir la carpeta "Pairs PC" y dar doble click sobre el archivo
-"Pairs.exe". La carpeta "Pairs PC incluye varios otros archvos y carpetas que son
-vitales para el juego, por lo que deben estar presentes en la misma ubicación, sin
-embargo estos no son de interes para el usuario, la creación de un instalador
-automático ayudará a ocultar dichos archivos para evitar cualquier posible confusión.

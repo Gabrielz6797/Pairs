@@ -1,18 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using System.IO;
-using UnityEngine.UI;
 using System.Text.RegularExpressions;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class Config
 {
 #if UNITY_EDITOR
     static readonly string Dir = Directory.GetCurrentDirectory();
-#elif UNITY_ANDROID
-    static readonly string Dir = Application.persistentDataPath;
 #else
-    static readonly string Dir = Directory.GetCurrentDirectory();
+    static readonly string Dir = Application.persistentDataPath;
 #endif
     static readonly string file = @"/PairMatching.ini";
     static readonly string path = Dir + file;
